@@ -1,0 +1,396 @@
+/* CKEditor Classic Build Styles - 흰색 바탕 */
+.ckeditor-container {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+}
+
+.ckeditor-container .ck-editor {
+  border: none;
+}
+
+.ckeditor-container .ck-editor__main {
+  border: none;
+}
+
+.ckeditor-container .ck-editor__editable {
+  border: none;
+  border-radius: 0;
+  min-height: 300px;
+  padding: 20px;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #1f2937 !important; /* 진한 회색으로 텍스트 가독성 향상 */
+  background: white !important;
+}
+
+.ckeditor-container .ck-editor__editable:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.ckeditor-container .ck-toolbar {
+  border: none;
+  border-bottom: 1px solid #e2e8f0;
+  background: #f8fafc;
+  padding: 8px 12px;
+}
+
+.ckeditor-container .ck-toolbar__separator {
+  background: #cbd5e1;
+}
+
+.ckeditor-container .ck-button {
+  border-radius: 4px;
+  margin: 2px;
+  color: #374151;
+}
+
+.ckeditor-container .ck-button:hover {
+  background: #e2e8f0;
+}
+
+.ckeditor-container .ck-button.ck-on {
+  background: #3b82f6;
+  color: white;
+}
+
+.ckeditor-container .ck-button.ck-on:hover {
+  background: #2563eb;
+}
+
+/* Content Styles - 흰색 바탕에 진한 텍스트 */
+.ckeditor-container .ck-content {
+  color: #1f2937 !important;
+  background: white !important;
+}
+
+.ckeditor-container .ck-content h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0;
+  line-height: 1.2;
+  color: #111827 !important; /* 제목은 더 진한 색상 */
+}
+
+.ckeditor-container .ck-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.75em 0;
+  line-height: 1.3;
+  color: #111827 !important;
+}
+
+.ckeditor-container .ck-content h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 0.83em 0;
+  line-height: 1.4;
+  color: #111827 !important;
+}
+
+.ckeditor-container .ck-content h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 1em 0;
+  line-height: 1.5;
+  color: #111827 !important;
+}
+
+.ckeditor-container .ck-content h5 {
+  font-size: 0.83em;
+  font-weight: bold;
+  margin: 1.17em 0;
+  line-height: 1.6;
+  color: #111827 !important;
+}
+
+.ckeditor-container .ck-content h6 {
+  font-size: 0.67em;
+  font-weight: bold;
+  margin: 1.33em 0;
+  line-height: 1.7;
+  color: #111827 !important;
+}
+
+.ckeditor-container .ck-content p {
+  margin: 1em 0;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content ul,
+.ckeditor-container .ck-content ol {
+  margin: 1em 0;
+  padding-left: 2em;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content li {
+  margin: 0.5em 0;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content blockquote {
+  border-left: 4px solid #3b82f6;
+  padding-left: 1em;
+  margin: 1em 0;
+  font-style: italic;
+  color: #374151 !important;
+  background: #f8fafc;
+}
+
+.ckeditor-container .ck-content code {
+  background: #f1f5f9;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content pre {
+  background: #f8fafc;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1em 0;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content pre code {
+  background: none;
+  padding: 0;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content th,
+.ckeditor-container .ck-content td {
+  border: 1px solid #e2e8f0;
+  padding: 0.5em;
+  text-align: left;
+  color: #1f2937 !important;
+}
+
+.ckeditor-container .ck-content th {
+  background: #f8fafc;
+  font-weight: bold;
+  color: #111827 !important;
+}
+
+.ckeditor-container .ck-content a {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
+.ckeditor-container .ck-content a:hover {
+  color: #1d4ed8;
+}
+
+.ckeditor-container .ck-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Placeholder 스타일 */
+.ckeditor-container .ck-editor__editable.ck-placeholder::before {
+  color: #9ca3af !important;
+}
+
+/* 선택된 텍스트 스타일 */
+.ckeditor-container .ck-editor__editable ::selection {
+  background: #dbeafe;
+  color: #1f2937;
+}
+
+/* 포커스 상태 */
+.ckeditor-container .ck-editor__editable:focus {
+  outline: none;
+  color: #1f2937 !important;
+  background: white !important;
+}
+
+/* 강조 텍스트 */
+.ckeditor-container .ck-content strong {
+  color: #111827 !important;
+  font-weight: bold;
+}
+
+.ckeditor-container .ck-content em {
+  color: #1f2937 !important;
+  font-style: italic;
+}
+
+/* 목록 마커 색상 */
+.ckeditor-container .ck-content ul li::marker,
+.ckeditor-container .ck-content ol li::marker {
+  color: #1f2937 !important;
+}
+
+/* 번역 결과 영역 스타일 - CKEditor와 동일하게 */
+.ck-content {
+  color: #1f2937 !important;
+  background: white !important;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+
+.ck-content h1 {
+  font-size: 2em !important;
+  font-weight: bold !important;
+  margin: 0.67em 0 !important;
+  line-height: 1.2 !important;
+  color: #111827 !important;
+}
+
+.ck-content h2 {
+  font-size: 1.5em !important;
+  font-weight: bold !important;
+  margin: 0.75em 0 !important;
+  line-height: 1.3 !important;
+  color: #111827 !important;
+}
+
+.ck-content h3 {
+  font-size: 1.17em !important;
+  font-weight: bold !important;
+  margin: 0.83em 0 !important;
+  line-height: 1.4 !important;
+  color: #111827 !important;
+}
+
+.ck-content h4 {
+  font-size: 1em !important;
+  font-weight: bold !important;
+  margin: 1em 0 !important;
+  line-height: 1.5 !important;
+  color: #111827 !important;
+}
+
+.ck-content h5 {
+  font-size: 0.83em !important;
+  font-weight: bold !important;
+  margin: 1.17em 0 !important;
+  line-height: 1.6 !important;
+  color: #111827 !important;
+}
+
+.ck-content h6 {
+  font-size: 0.67em !important;
+  font-weight: bold !important;
+  margin: 1.33em 0 !important;
+  line-height: 1.7 !important;
+  color: #111827 !important;
+}
+
+.ck-content p {
+  margin: 1em 0 !important;
+  color: #1f2937 !important;
+}
+
+.ck-content ul,
+.ck-content ol {
+  margin: 1em 0 !important;
+  padding-left: 2em !important;
+  color: #1f2937 !important;
+}
+
+.ck-content li {
+  margin: 0.5em 0 !important;
+  color: #1f2937 !important;
+}
+
+.ck-content blockquote {
+  border-left: 4px solid #3b82f6 !important;
+  padding-left: 1em !important;
+  margin: 1em 0 !important;
+  font-style: italic !important;
+  color: #374151 !important;
+  background: #f8fafc !important;
+}
+
+.ck-content code {
+  background: #f1f5f9 !important;
+  padding: 0.2em 0.4em !important;
+  border-radius: 3px !important;
+  font-family: 'Courier New', monospace !important;
+  font-size: 0.9em !important;
+  color: #1f2937 !important;
+}
+
+.ck-content pre {
+  background: #f8fafc !important;
+  padding: 1em !important;
+  border-radius: 6px !important;
+  overflow-x: auto !important;
+  margin: 1em 0 !important;
+  color: #1f2937 !important;
+}
+
+.ck-content pre code {
+  background: none !important;
+  padding: 0 !important;
+  color: #1f2937 !important;
+}
+
+.ck-content table {
+  border-collapse: collapse !important;
+  margin: 1em 0 !important;
+  width: 100% !important;
+  color: #1f2937 !important;
+}
+
+.ck-content th,
+.ck-content td {
+  border: 1px solid #e2e8f0 !important;
+  padding: 0.5em !important;
+  text-align: left !important;
+  color: #1f2937 !important;
+}
+
+.ck-content th {
+  background: #f8fafc !important;
+  font-weight: bold !important;
+  color: #111827 !important;
+}
+
+.ck-content a {
+  color: #3b82f6 !important;
+  text-decoration: underline !important;
+}
+
+.ck-content a:hover {
+  color: #1d4ed8 !important;
+}
+
+.ck-content img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 4px !important;
+}
+
+.ck-content strong {
+  color: #111827 !important;
+  font-weight: bold !important;
+}
+
+.ck-content em {
+  color: #1f2937 !important;
+  font-style: italic !important;
+}
+
+.ck-content ul li::marker,
+.ck-content ol li::marker {
+  color: #1f2937 !important;
+}
